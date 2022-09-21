@@ -1,0 +1,532 @@
+.sign-up-page{
+    //margin-top: 134px;
+    .create-account-cotainer{
+        margin-top: 22px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 48px;
+        letter-spacing: 0.01em;
+        color: #000000;
+        border-bottom: 1px solid #C2C2C2;
+        @media(max-width:768px){
+            font-size: 24px;
+            line-height: 32px;
+        }
+        .subtitle-create-account{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #4C4C4C;
+            margin-top: 6px;
+            margin-bottom: 32px;
+            letter-spacing: 0;
+            
+            @media(max-width:768px){
+                font-size: 12px;
+                line-height: 20px;
+            }
+        }
+    }
+    .title-basic-form{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: 0.01em;
+        color: #000000;
+        margin: 32px 0px;
+    }
+    .header-title-input{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #000000;
+    }
+    .header-title-input{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #000000;
+    }
+    .container-multiple-check{
+        margin: 12px auto 60px auto;
+        // margin-top: 12px;
+        // margin-bottom: 60px;
+    }
+    .mobility-item-container{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 28px;
+    }
+    .mobility-item:hover,  .mobility-item-hover{
+        border: 2px solid #21506E;
+        opacity:1;
+        background:#F0ECE0;
+        box-shadow: 2px 2px 30px -10px rgba(0, 0, 0, 0.1);
+    }
+    .text-content-options{
+        position: static;
+        height: 24px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #21506E;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 10px 0px;
+        text-align: center;
+    }
+    .name-container{
+        margin-bottom: 22px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container-input{
+        margin-bottom: 15px;
+    }
+    .therms-and-privacy{
+        margin: 45px 0px;
+        text-align: center;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #4C4C4C;
+    }
+    .button-save-continue{
+        display: flex;
+        flex-direction: row;
+        padding: 10px 16px;
+        width: auto;
+        height: 40px;
+        background: #EC6571;
+        border: 1px solid #EC6571;
+        border-radius: 6px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 24px;
+        color:#fff;
+        margin: 37px auto;
+    }
+    .p-inputtext{
+        background: #F7F7F7;
+    }
+    .p-dropdown .p-dropdown-trigger{
+        background: #F7F7F7;
+    }
+    .p-multiselect .p-multiselect-trigger{
+        background: #F7F7F7;
+    }
+    .p-multiselect{
+        background: #F7F7F7;
+    }
+    
+    .text-content-already{
+        text-align: center;
+        margin-bottom: 114px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #4C4C4C;
+    }
+    .header-title-box{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+    }
+    .container-multiple-check{
+        margin: 12px auto 60px auto;
+        // margin-top: 12px;
+        // margin-bottom: 60px;
+    }
+    .container-check{
+        width: 48%;
+        box-sizing: border-box;
+        box-shadow: 2px 2px 30px -10px rgba(0, 0, 0, 0.1);
+        border-radius: 6px;
+        height: 44px;
+        background: #F7F7F7;
+        margin-bottom: 18px;
+        margin-right: 20px;
+        @media(max-width: 780px){
+            width: 100%;
+            
+        }
+        @media(min-width: 992px){
+            margin-right: 12px;
+        }
+        @media(min-width: 1599px){
+            margin-right: 20px;
+        }
+    }
+    .container-check:hover, .container-check-hover{
+        border: 1px solid #EC6571;
+    }
+    .container-check::after{
+        border: 1px solid #EC6571;
+    }
+    .space-title{
+        margin-bottom: 16px;
+    }
+    .container-title-support{
+        margin-top: 30px;
+        margin-bottom: 12px;
+    }
+    .title-availability{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 48px;
+        /* identical to box height, or 109% */
+
+        letter-spacing: 0.01em;
+
+        color: #000000;
+    }
+    .description-form-availability{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        /* identical to box height, or 143% */
+        padding-top: 6px;
+
+        /* Neutrals/Neutral 700 */
+
+        color: #4C4C4C;
+    }
+    .line-availability{
+        /* Neutrals/Neutral 400 */
+        margin-top: 32px;
+        border: 1px solid #C2C2C2;
+        width: 634px;
+    }
+    .title-time-available{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+        padding-top: 30px;
+
+        color: #000000;
+        padding-bottom: 12px;
+    }
+    .btn-availabolity-submit{
+        padding-top: 45px;
+        padding-bottom: 45px;
+        text-align: center;
+    }
+    .day-title{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+
+        color: #000000;
+    }
+    .line-profile{
+        margin-top: 32px;
+        border: 1px solid #C2C2C2;
+    }
+    .title-profile-photo{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: 0.01em;
+        color: #000000;
+        margin-top: 17px;
+    }
+    .description-profile-photo{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4C4C4C;
+        margin-bottom: 36px;
+    }
+    .profile-photo{
+        width: 160px;
+        height: 160px;
+        background: #E8E8E8;
+        border-radius: 100px;
+        display: block;
+        margin: 0 auto ;
+    }
+    .edit-your-bio{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 36px;
+        /* identical to box height, or 129% */
+
+        letter-spacing: 0.01em;
+
+        color: #000000;
+    }
+    .edit-your-bio-description{
+        // width: 607px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4C4C4C;
+        margin-top: 8px;
+
+    }
+    .header-profile{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+    }
+    .header-input-profile{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #B4B4B4;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+        margin: 0px 10px;
+    }
+    .biography-profile{
+
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+
+        color: #000000;
+
+    }
+
+    .biography-profile-input{
+        /* Paragraph/P Large Regular */
+
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        /* or 156% */
+
+
+        /* Neutrals/Neutral 500 */
+
+        color: #B4B4B4;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+        margin: 0px 10px;
+    }
+    .title-step-avalibility{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        margin-top: 30px;
+        margin-bottom: 12px;
+    }
+    .header-title-profile{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        margin-top: 17px;
+        margin-bottom: 10px;
+    }
+    .text-textArea-profile{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #000;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+        height: 112px;
+    }
+    .size-text-area{
+        // height: 175px;
+    }
+    .button-complete{
+        display: flex;
+        flex-direction: row;
+        padding: 10px 16px;
+        width: 226px;
+        height: 40px;
+        color: #ffffff;
+        background: #EF4444;
+        border: 1px solid #EF4444;
+        border-radius: 6px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 24px;
+        color:#fff;
+        margin: 37px auto 159px auto;
+    }
+    .field-checkbox{
+        .p-checkbox{
+        margin-left: 12px;
+        }
+        label{
+            margin-left: 10px;
+        }
+    }
+    .p-datatable .p-datatable-tbody > tr > td {
+        background: #F7F7F7;
+        border: none;
+    }
+    .line-down{
+        border-bottom: 1px solid #4C4C4C;;
+    }
+    .apply-text-content{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4C4C4C;
+        margin-top: 12px;
+        margin-bottom: 16px;
+    }
+    .p-error{
+        color: #eb7100;
+    }
+    .p-inputtext.p-invalid.p-component{
+        border-color: #eb7100;
+    }
+    .p-multiselect-header{
+        display: none;
+    }
+    
+    .p-radiobutton .p-radiobutton-box.p-highlight{
+        border-color: #000000;
+        background: #fff;
+    }     
+    
+    
+    
+}
+.final-message-container{
+    .success-icon{
+        color: #F8A6AE;
+        opacity: 0.6;
+        width: 138px;
+        height: 138px;
+        display: block;
+        margin: 20px auto 46px auto;
+    }
+    .success-message{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 48px;
+        letter-spacing: 0.01em;
+        color: #000000;
+        margin: 0 auto 40px auto;
+        //display: block;
+        text-align: center;
+    }
+    .success-message-check{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 32px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #EC6571;
+        margin-bottom: 29px;
+    }
+    .div-empty{
+        background: none;
+        pointer-events: none;
+        margin: 0px;
+        height: 0px;
+    }
+    .verify-email{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        /* or 133% */
+
+        text-align: center;
+        letter-spacing: 0.01em;
+
+        color: #000000;
+        margin-bottom: 29px;
+    }
+
+    .description-registration{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        margin: 0 auto 30px auto;
+        color: #000000;
+        width: auto;
+    }
+    .btn-container-home{
+        text-align: center;
+        width: auto;
+        margin: 30px auto 340px auto;
+    }
+}

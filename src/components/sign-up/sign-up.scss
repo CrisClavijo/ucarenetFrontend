@@ -1,0 +1,56 @@
+.sign-up{
+    margin-top: 134px;
+    .title-sign-up{
+        font-family: 'Droid Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 52px;
+        /* identical to box height, or 118% */
+        
+        text-align: center;
+        
+        /* Neutrals/Black */
+        
+        color: #000000;
+    }
+    .title-sign-up-description{
+        font-family: 'Droid Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        /* or 140% */
+        
+        text-align: center;
+        
+        /* Neutrals/Black */
+        
+        color: #000000;
+    }
+
+    .image-sign-up{
+        background: #F1F1F1;
+        height: 232px;
+        width: 628px;
+        div{
+            border: 20px solid #E8E8E8;
+            transform: matrix(0.89, -0.33, 0.52, 0.93, 0, 0);
+        }
+        @media (min-width: 768px) {  
+            width: 100%;
+
+        }
+        @media (max-width: 768px) {  
+            width: 100%;
+
+        }
+    }
+
+    .register-sign-up-btn{
+        margin-top: 24px;
+        margin-bottom: 72px;
+    }
+    
+    
+}

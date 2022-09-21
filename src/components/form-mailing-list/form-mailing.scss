@@ -1,0 +1,81 @@
+.mailing-form{
+  .mailinglist-ad .content-container{
+    text-align: center;
+    padding: 60px 5vw;
+    margin: auto;
+  }
+  .mailinglist-ad form{
+    margin: 40px 0;
+  }
+  .mailinglist-ad form > div{
+    font-size: 0;
+    margin-bottom: 10px;
+  }
+  .mailinglist-ad form label{
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  .mailinglist-ad form input{
+    padding: 18px;
+    color: #333;
+    background: #F6F6F6;
+    border: 1px solid #B4B4B4;
+    border-right: none;
+    border-radius: 6px 0 0 6px;
+  }
+  .mailinglist-ad form input[type="email"]{
+    width: 300px;
+  }
+  .mailinglist-ad form input[type="email"].errorMsg{
+    border-color: #EB7100;
+  }
+  .mailinglist-ad form input[type="submit"]{
+    /*padding: 16px;	*/
+    border-radius: 0 6px 6px 0 ;
+    border-color: #EC6571;
+    background: #EC6571;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .mailinglist-ad form label.tlc{
+    font-size: 14px;
+    margin: 20px 0 0 10px;
+  }
+  .mailinglist-ad form input[type="checkbox"],
+  .mailinglist-ad .tlc{
+    display: inline-block;
+    transform: translateX(0px);
+    transition: .3s;
+    margin-top: 0;
+  }
+
+  .mailinglist-ad form input[type="checkbox"].errorMsg,
+  .mailinglist-ad form .tlc.errorMsg{
+    animation: errorMsg .2s 2;
+    color: #EB7100;
+  }
+  .validationMsg{
+    font-size: 14px;
+    color:#EB7100;
+    opacity: 1 !important;
+    margin: 2px 0 0 0 ;
+  }
+  .mailinglist-ad form .validationMsg.errorMsg{
+    opacity: 1;
+    animation: errorMsg .2s 2;
+  }
+
+  @media only screen and (max-width: 550px) {
+    .mailinglist-ad form input[type="email"]{
+      width: 200px;
+    }
+    .mailinglist-ad form label{
+      display: block;
+      font-size: 14px;
+    }
+    .mailinglist-ad form label.tlc{
+      margin-top: 0;
+    }
+  }
+}

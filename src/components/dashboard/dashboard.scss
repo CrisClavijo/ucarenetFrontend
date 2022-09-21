@@ -1,0 +1,15 @@
+.field-fill-circle{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.circle-filled{
+    background: #EC6571;
+    width: 28px;
+    height: 28px;
+    border-radius: 15px;
+    position: absolute;
+}

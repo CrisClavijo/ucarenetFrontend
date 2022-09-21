@@ -1,0 +1,57 @@
+/* @import "../../common.scss"; */
+
+.form-demo .card {
+  min-width: 450px;
+}
+.form-demo .card form {
+  margin-top: 2rem;
+}
+.form-demo .card .field {
+  margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 960px) {
+  .form-demo .card {
+      width: 80%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .form-demo .card {
+      width: 100%;
+      min-width: 0;
+  }
+}
+
+
+/*  Login
+-----------------------------------*/
+.login-wrap{
+  padding-bottom: 50px;
+}
+.field-outer{
+  margin-top: 20px;
+}
+.login-main h3{
+  margin-bottom: 30px;
+}
+.login-main .form-label{
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-align: left;
+}
+.login-main .form-control{
+  background: #e8e8e8;
+  border-color: transparent;
+}
+.login-main p.text-end{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.login-main p.text-end a{
+  color: #000;
+}
+.login-main p.text-center{
+  margin: 0;
+}
+.form-label-l{
+  text-align: left;
+}

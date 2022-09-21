@@ -1,0 +1,106 @@
+.contact-us{
+  //margin-top: 140px;
+  max-width: 1400px;
+  margin: 254px auto 215px auto !important;
+  @media(max-width: 992px){
+    margin: 140px auto 0 auto !important;
+  }
+  .content-contact:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #386A89;
+    width: 70%;
+    z-index: -1;
+    border-radius: 16px;
+    @media(max-width: 992px){
+      width: 100%;
+      border-radius: 0;
+    }
+  }
+  .content-detail{
+    padding: 140px 61px 140px 120px;
+    @media(max-width: 992px){
+      padding: 0;
+      width: 90%;
+      margin: 30px auto;
+    }
+  }
+  .content-contact{
+    position: relative;
+  }
+  .networks{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    align-items: flex-start;
+    @media(max-width: 992px){
+      display: none;
+    }
+  }
+  .icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 35px;
+  }
+  .detail-contact, .direction-contact{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .detail-contact h3{
+    font-family: 'Droid Serif';
+    font-size: 44px;
+    line-height: 52px;
+    color: #fff;
+  }
+  .detail-contact p{
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    color: #fff;
+  }
+  .direction-contact{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    @media(max-width: 992px){
+      display: none;
+    }
+  }
+  .content-form{
+    background: #FFFFFF;
+    box-shadow: 2px 2px 30px -10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin: 85px 0;
+    padding: 60px 66px;
+    @media(max-width: 992px){
+      margin: 0;
+      padding: 40px;
+      border-radius: 0;
+    }
+  }
+  .text-headers-input{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: #000000;
+  }
+  .mobile-phone{
+    @media(max-width: 992px){
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+// Colors
+$primary-color-700: #4A8520;
+$primary-color-600: #63A535; 
+$primary-color: #6FB24A;// 500 default
+$primary-color-450: #74B62B;
+$primary-color-400: #9ACC3D;
+$primary-color-300: #6CDD24;
+
+$secondry-color-600: #072E47; // 
+$secondry-color: #104160; // 500 default
+$secondry-color-400: #195880;
+$secondry-color-300: #007EAA;
+
+$terciary-color-600: #E37600;
+$terciary-color: #ff8500; // 500 default
+$terciary-color-400: #FF9E34;
+$terciary-color-300: #f9a85f;
+
+$ligth-color: #AEAEAE; // Ex. for disable buttons
+$error-color: #A62223;
+// Fonts
+$primary-font-color: rgb(10, 10, 10);
+$secondary-font-color: #ffffff;
+$terciary-font-color: #737373;
+$quarter-font-color: #727272;
+// Links
+$link-color: #006bc2;
+$link-color-hover: #004680;
+// Backgrounds
+$bg-primary: #fff;
+$bg-secondary: #f2f6f9;
+$bg-terciary: #e3e3e3;
+
+// @font-face {
+//    font-family: 'OpenSans';
+//     src: url('./assets/fonts/OpenSansRegular.woff') format('woff2');
+//    font-weight: normal;
+//    font-style: normal;
+// }
+// @font-face {
+//    font-family: 'OpenSans';
+//     src: url('./assets/fonts/OpenSansBold.woff') format('woff2');
+//     font-weight: bold;
+//     font-style: normal;
+// }
+
+$font-main: 'OpenSans', Arial, Helvetica, sans-serif;
+
+$primary-color-background-menu: #62b5e5;
